@@ -31,13 +31,13 @@ function App() {
   };
 
   const projects = [
-    {id: 1, name: "Tic Tac Toe", image: `${process.env.PUBLIC_URL}/tic-tac-toe.jpg`, intro: "Tic-Tac-Toe is a classic two-player game where players take turns marking spaces in a 3x3 grid with their respective symbols (usually 'X' and 'O'). The objective is to align three symbols horizontally, vertically, or diagonally before your opponent. Single-player mode with AI opponent (difficulty adjustable). Intermediate level project. Tech stack applied was React.js, python(flask), css" },
+    {id: 1, name: "Shortest Path Finder", image: `${process.env.PUBLIC_URL}/shortest-path-finder.png`, intro: "Tic-Tac-Toe is a classic two-player game where players take turns marking spaces in a 3x3 grid with their respective symbols (usually 'X' and 'O'). The objective is to align three symbols horizontally, vertically, or diagonally before your opponent. Single-player mode with AI opponent (difficulty adjustable). Intermediate level project. Tech stack applied was React.js, python(flask), css" },
     {id: 2, name: "URL Shortener", image: `${process.env.PUBLIC_URL}/url-shortener.jpg`, intro: "Generates shortened links from long URLs, making them easier to share. Tech stack used: html, css, react.js, express.js(for storing the database), python(flask)" },
     {id: 3, name: "Flash Cards", image: `${process.env.PUBLIC_URL}/flashcard.jpg`, intro: "helps users create, manage, and review cards containing questions on one side and answers on the other." },
     { id: 4, name: "Pinnacle Interiors", image: `${process.env.PUBLIC_URL}/pinnacle-logo.png`, intro: "It's an e-commerce website..." },
     { id: 7, name: "Weather App", image: `${process.env.PUBLIC_URL}/snow.png`, intro: "Use of API, beginner-level project" },
     { id: 8, name: "My-form", image: `${process.env.PUBLIC_URL}/form.jpg`, intro: "Simple HTML, CSS-based project" },
-    { id: 6, name: "Music Finder", image: `${process.env.PUBLIC_URL}/music.jpg`, intro: "A little advanced" },
+    { id: 6, name: "Soduko Solver", image: `${process.env.PUBLIC_URL}/soduko-solver.png`, intro: "A little advanced" },
     { id: 5, name: "Relax&Chill", image: `${process.env.PUBLIC_URL}/relax.jpg`, intro: "Unique project for helping users relax" },
   ];
 
