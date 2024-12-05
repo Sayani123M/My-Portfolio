@@ -17,7 +17,7 @@ function ProjectDetails({ projects }) {
       <p>What the project is about:</p>
       <p>{project.intro}</p></div>
       <div className="project-link">
-      <a href={project.github} target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/Sayani123M" target="_blank" rel="noopener noreferrer">
         GitHub Link
       </a>
       <br />
